@@ -1,0 +1,7 @@
+name: 'Hello World Shell Script'
+description: 'Kiír egy üdvözlő üzenetet a shell script használatával'
+runs:
+  using: 'composite'
+  steps:
+    - run: ./.github/actions/hello-devops/hello.sh
+      shell: bash
